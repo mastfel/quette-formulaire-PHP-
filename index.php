@@ -11,26 +11,27 @@
         <h1 class="text-center">Contact</h1>
 
         <p class="row">
-            <label for="name" class="form-label">Nom: </label>
-            <input type="text" name="name" id="name" class="form-control">
+            <label for="name" class="form-label">Nom : </label>
+            <input type="text" name="name" id="name"  class="form-control">
         </p>
 
         <p class="row">
             <label for="firstname" class="form-label">Prénom : </label>
-            <input type="text" name="firstname" id="firstname" class="form-control">
+            <input type="text" name="firstname" id="firstname"  class="form-control">
         </p>
 
         <p class="row">
             <label for="email" class="form-label">E-mail : </label>
-            <input type="email" name="email" id="email" class="form-control">
+            <input type="email" name="email" id="email"  class="form-control">
         </p>
         <p class="row">
             <label for="telephone" class="form-label">Téléphone : </label>
-            <input type="tel" name="telephone" id="telephone" class="form-control">
+            <input type="tel" name="telephone" id="telephone"  class="form-control">
         </p>
         <p class="row">
             <label for="subject" class="form-label">Sujet : </label>
-           <select id="subject" name="subject">
+           <select id="subject" name="subject" >
+            <option value=""></option>
             <option value="Question générale">Question générale</option>
             <option value="Support technique">Support technique</option>
             <option value="Demande commerciale">Demande commerciale</option>
@@ -40,9 +41,8 @@
         </p>
 
         <p class="row">
-            <label for="mesage" class="form-label"> Votre message : </label>
-            <textarea name="message" id="message" class="form-control" rows="15" cols="80" >
-            </textarea>
+            <label for="message" class="form-label"> Votre message : </label>
+            <textarea name="message" id="message"   class="form-control" rows="15" cols="80" ></textarea>
         </p>
         <p class="text-center">
             <button type="submit" class="btn btn-primary">Envoyer</button>
